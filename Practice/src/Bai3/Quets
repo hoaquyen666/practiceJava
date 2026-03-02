@@ -1,0 +1,17 @@
+Các phương thức có input là amount (Số tiền). Chạy và in ra ví dụ.
+
+# Bài 3
+
+**Mô tả**:
+Bạn cần phát triển một hệ thống ngân hàng để thực hiện các giao dịch bất đồng bộ. Mỗi khi có yêu cầu giao dịch, hệ thống cần:
+
+1. Xác thực thông tin khách hàng.
+2. Kiểm tra số dư trong tài khoản.
+3. Thực hiện giao dịch chuyển tiền.
+
+**Yêu cầu**:
+
+1. Giả lập ba tác vụ này với độ trễ khác nhau.
+2. Sử dụng CompletableFuture để thực hiện các tác vụ một cách bất đồng bộ.
+3. Nếu quá trình xác thực hoặc kiểm tra số dư thất bại, hệ thống sẽ huỷ bỏ giao dịch.
+(sử dụng CompletableFuture.exceptionally() hoặc handle() để xử lý lỗi)

@@ -1,0 +1,10 @@
+# Bài 1
+
+Viết một chương trình quản lý sinh viên sử dụng ArrayList với các chức năng sau:
+
+1. Thêm sinh viên mới với các thuộc tính MSSV, Tên, điểm GPA thông qua console
+2. Hiển thị danh sách tất cả các sinh viên
+3. Tìm kiếm sinh viên theo tên nhập vào từ console
+4. Xóa sinh viên theo MSSV nhập vào từ console
+
+Việc lựa chọn chức năng để chạy thông qua một menu trên console.

@@ -1,0 +1,8 @@
+# Bài 2
+
+Xây dựng hệ thống Payment Processing cho một ứng dụng bán hàng áp dụng Factory Method Pattern. Hệ thống hỗ trợ nhiều phương thức thanh toán:
+
+- Credit Card
+- PayPal
+- Cash
+Các phương thức có input là amount (Số tiền). Chạy và in ra ví dụ.
